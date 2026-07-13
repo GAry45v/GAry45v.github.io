@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "JSON CV"
 permalink: /cv-json/
 author_profile: false
 redirect_from:

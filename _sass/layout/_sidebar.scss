@@ -144,17 +144,19 @@
   display: table-cell;
   vertical-align: top;
   width: 36px;
-  // set width only, for non-square avatars
-  // height: 36px;
+  height: 36px;
 
   @include breakpoint($large) {
     display: block;
-    width: auto;
-    height: auto;
+    width: 175px;
+    height: 175px;
   }
 
   img {
-    max-width: 175px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 35% center;
     border-radius: 50%;
 
     @include breakpoint($large) {
@@ -305,6 +307,43 @@
 
   li {
     white-space: nowrap;
+  }
+
+  .author__contact-copy {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 25px;
+    margin-bottom: 5px;
+    padding: 2px 5px 2px 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: $type-size-5;
+    text-align: left;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .author__copy-icon,
+  .author__copied-icon {
+    margin-left: auto;
+    font-size: 0.8em;
+    opacity: 0.65;
+  }
+
+  .author__copied-icon,
+  .author__contact-copy.is-copied .author__copy-icon {
+    display: none;
+  }
+
+  .author__contact-copy.is-copied .author__copied-icon {
+    display: inline-block;
   }
 
   a {

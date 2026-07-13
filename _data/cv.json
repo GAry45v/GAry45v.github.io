@@ -1,152 +1,169 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Jiayi Xie",
+    "email": "13735558806@163.com",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://GAry45v.github.io",
+    "summary": "LLM Agent and Applied ML researcher working on Agentic RL, LLM post-training, anomaly detection, and research automation.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Hangzhou",
+      "countryCode": "CN",
+      "region": "Zhejiang"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "GAry45v",
+        "url": "https://github.com/GAry45v"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "name": "TikTok",
+      "position": "LLM Post-training Intern",
+      "startDate": "2026-05",
+      "endDate": "Present",
+      "summary": "LLM post-training for live moderation.",
+      "highlights": [
+        "Focused on VLMs, agentic reasoning, RFT, and Agentic RL."
+      ]
+    },
+    {
+      "name": "Meituan",
+      "position": "LLM Post-training Intern",
+      "startDate": "2025-11",
+      "endDate": "2026-04",
+      "summary": "LLM agent post-training for rule-constrained food-ordering workflows.",
+      "highlights": [
+        "Prompt engineering and workflow optimization for food-ordering agents.",
+        "Built data pipelines from online queries, model rollouts, and rule validators.",
+        "Designed curriculum learning and reward functions."
+      ]
+    },
+    {
+      "name": "Tianjin University NLP Lab",
+      "position": "LLM Intern",
+      "startDate": "2025-07",
+      "endDate": "2025-08",
+      "summary": "Deep-Research.",
+      "highlights": [
+        "Supervised by Prof. Deyi Xiong."
+      ]
+    },
+    {
+      "name": "University of Chinese Academy of Sciences",
+      "position": "AIGC Intern",
+      "startDate": "2025-03",
+      "endDate": "2025-06",
+      "summary": "Speech-driven facial animation.",
+      "highlights": [
+        "Trained a new Mamba-based audio encoder.",
+        "Supervised by Prof. Changliang Xu."
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "Zhejiang University",
+      "area": "Software Engineering",
+      "studyType": "M.S.",
+      "startDate": "2026-09",
+      "endDate": "2029-07",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
+      "institution": "Zhejiang University of Technology",
+      "area": "Software Engineering",
+      "studyType": "B.Eng.",
+      "startDate": "2022-09",
+      "endDate": "2026-07",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
+      "institution": "RWTH Aachen University",
+      "area": "Exchange experience",
       "studyType": "",
       "startDate": "",
-      "endDate": "2012",
+      "endDate": "",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "skills": [
+    {
+      "name": "LLM and Agent Training",
+      "keywords": ["SFT", "RFT", "GRPO", "RLAIF", "reward design", "LLM-as-a-Judge", "verifier-based evaluation"]
+    },
+    {
+      "name": "Machine Learning",
+      "keywords": ["PyTorch", "diffusion models", "Mamba", "anomaly detection", "transfer learning"]
+    },
+    {
+      "name": "Engineering",
+      "keywords": ["Python", "Git", "context engineering", "agent harness engineering", "data pipelines", "evaluation pipelines"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "IELTS 7.0"
+    },
+    {
+      "language": "Chinese",
+      "fluency": "Native"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Research Interests",
+      "keywords": ["LLM agents", "Agentic RL", "anomaly detection", "research automation"]
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Anomaly-Related Residual Fields for Cross-domain Anomaly Detection",
+      "publisher": "CVPR 2026, accepted",
+      "releaseDate": "2026-02-01",
+      "website": "",
+      "summary": "Diffusion residual-field modeling for robust cross-domain unsupervised anomaly detection."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "SAT: From Diverse Anomalies to Structured Representations for Cross-Domain Detection",
+      "publisher": "NeurIPS 2026, under review",
+      "releaseDate": "2026-05-15",
+      "website": "",
+      "summary": "Structured representations for cross-domain anomaly detection."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Manifold-Connected Representation Learning for Graph Anomaly Detection",
+      "publisher": "ICML 2026 submission",
+      "releaseDate": "2026-01-20",
+      "website": "",
+      "summary": "Representation learning for transfer-oriented graph anomaly detection."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Domain-Aware Gradient Reuse for Cross-Domain Anomaly Detection",
+      "publisher": "ICML 2026 submission",
+      "releaseDate": "2026-01-15",
+      "website": "",
+      "summary": "Reusable optimization signals for cross-domain anomaly detection."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
+  "presentations": [],
+  "teaching": [],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
+      "name": "LLM Agent Post-Training for Rule-Constrained Food Ordering",
       "category": "portfolio",
       "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "url": "/portfolio/llm-agent-post-training/",
+      "description": "Prompt engineering, SFT, GRPO, curriculum learning, and reward design for production-style ordering agents."
     }
   ]
 }

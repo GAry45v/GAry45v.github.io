@@ -7,11 +7,11 @@
 <div itemscope itemtype="http://schema.org/Person">
 
   <div class="author__avatar">
-    {% if author.avatar contains "://" %}
-    	<img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
-    {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
-    {% endif %}
+	{% if author.avatar contains "://" %}
+		<img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
+	{% else %}
+		<img src="{{ author.avatar | prepend: "/images/" | relative_url }}" alt="{{ author.name }}"  fetchpriority="high" />
+	{% endif %}
   </div>
 
   <div class="author__content">
@@ -34,7 +34,13 @@
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
+        <li><a href="mailto:{{ author.email }}" title="Send email"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
+      {% endif %}
+      {% if author.wechat %}
+        <li><button type="button" class="author__contact-copy" data-copy-text="{{ author.wechat | escape }}" aria-label="Copy WeChat ID" title="Copy WeChat ID"><i class="fab fa-fw fa-weixin icon-pad-right" aria-hidden="true"></i><span>WeChat</span><i class="fas fa-copy author__copy-icon" aria-hidden="true"></i><i class="fas fa-check author__copied-icon" aria-hidden="true"></i></button></li>
+      {% endif %}
+      {% if author.xiaohongshu %}
+        <li><button type="button" class="author__contact-copy" data-copy-text="{{ author.xiaohongshu | escape }}" aria-label="Copy RedNote ID" title="Copy RedNote ID"><i class="fas fa-fw fa-book-open icon-pad-right" aria-hidden="true"></i><span>RedNote</span><i class="fas fa-copy author__copy-icon" aria-hidden="true"></i><i class="fas fa-check author__copied-icon" aria-hidden="true"></i></button></li>
       {% endif %}
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
