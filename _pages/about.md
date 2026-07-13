@@ -13,7 +13,7 @@ redirect_from:
 
 # Publications & Research
 
-- Anomaly-Related Residual Fields for Cross-domain Anomaly Detection<br>
+- [Anomaly-Related Residual Fields for Cross-domain Anomaly Detection](https://openaccess.thecvf.com/content/CVPR2026/papers/Gao_Anomaly-Related_Residual_Fields_for_Cross-domain_Anomaly_Detection_CVPR_2026_paper.pdf)<br>
   Student first author, CVPR 2026, accepted.
 
 - SAT: From Diverse Anomalies to Structured Representations for Cross-Domain Detection<br>

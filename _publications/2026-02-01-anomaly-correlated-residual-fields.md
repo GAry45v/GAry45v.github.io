@@ -6,7 +6,7 @@ permalink: /publication/anomaly-correlated-residual-fields/
 excerpt: "A diffusion-based framework for robust cross-domain unsupervised anomaly detection."
 date: 2026-02-01
 venue: "CVPR 2026, accepted"
-paperurl:
+paperurl: "https://openaccess.thecvf.com/content/CVPR2026/papers/Gao_Anomaly-Related_Residual_Fields_for_Cross-domain_Anomaly_Detection_CVPR_2026_paper.pdf"
 citation: "Xie, Jiayi, et al. (2026). Anomaly-Related Residual Fields for Cross-domain Anomaly Detection. CVPR 2026, accepted."
 ---
 
