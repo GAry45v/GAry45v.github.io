@@ -27,33 +27,125 @@ redirect_from:
 
 # Education
 
-**Zhejiang University**, Hangzhou, China<br>
-Incoming M.S. Student in Software Engineering, 09/2026 - 07/2029<br>
-Recommended admission, ranked 1st in major track.
+<div class="education-list" role="list">
+  <div class="education-item" role="listitem">
+    <div class="education-logo">
+      <img class="education-emblem" src="{{ '/images/education/zhejiang-university.png' | relative_url }}" alt="Zhejiang University emblem" loading="lazy" decoding="async">
+    </div>
+    <div class="education-details">
+      <div class="education-school-line">
+        <strong>Zhejiang University</strong>
+        <span class="education-location">Hangzhou, China</span>
+      </div>
+      <div class="education-degree-line">
+        <span>Incoming M.S. Student in Software Engineering</span>
+        <span class="education-date">09/2026 - 07/2029</span>
+      </div>
+      <div class="education-note">Recommended admission, ranked 1st in major track.</div>
+    </div>
+  </div>
 
-**Zhejiang University of Technology**, Hangzhou, China<br>
-B.Eng. Student in Software Engineering, 09/2022 - 07/2026
+  <div class="education-item" role="listitem">
+    <div class="education-logo">
+      <img class="education-emblem" src="{{ '/images/education/zhejiang-university-of-technology.png' | relative_url }}" alt="Zhejiang University of Technology emblem" loading="lazy" decoding="async">
+    </div>
+    <div class="education-details">
+      <div class="education-school-line">
+        <strong>Zhejiang University of Technology</strong>
+        <span class="education-location">Hangzhou, China</span>
+      </div>
+      <div class="education-degree-line">
+        <span>B.Eng. Student in Software Engineering</span>
+        <span class="education-date">09/2022 - 07/2026</span>
+      </div>
+    </div>
+  </div>
 
-**RWTH Aachen University**, Aachen, Germany<br>
-Exchange experience.
+  <div class="education-item" role="listitem">
+    <div class="education-logo">
+      <img class="education-wordmark" src="{{ '/images/education/rwth-aachen-university.png' | relative_url }}" alt="RWTH Aachen University logo" loading="lazy" decoding="async">
+    </div>
+    <div class="education-details">
+      <div class="education-school-line">
+        <strong>RWTH Aachen University</strong>
+        <span class="education-location">Aachen, Germany</span>
+      </div>
+      <div class="education-note">Exchange experience.</div>
+    </div>
+  </div>
+</div>
 
 # Internship
 
-**TikTok**, China<br>
-LLM Post-training Intern, 05/2026 - Present<br>
-Working on LLM post-training for live moderation, with a focus on VLM, Agentic Reasoning, RFT, and Agentic RL.
+<div class="internship-list" role="list">
+  <div class="internship-item" role="listitem">
+    <div class="internship-logo">
+      <img class="internship-company-logo" src="{{ '/images/internship/tiktok.png' | relative_url }}" alt="TikTok logo" loading="lazy" decoding="async">
+    </div>
+    <div class="internship-details">
+      <div class="internship-company-line">
+        <strong>TikTok</strong>
+        <span class="internship-location">China</span>
+      </div>
+      <div class="internship-role-line">
+        <span>LLM Post-training Intern</span>
+        <span class="internship-date">05/2026 - Present</span>
+      </div>
+      <div class="internship-note">Working on LLM post-training for live moderation, with a focus on VLM, Agentic Reasoning, RFT, and Agentic RL.</div>
+    </div>
+  </div>
 
-**Meituan**, China<br>
-LLM Post-training Intern, 11/2025 - 04/2026<br>
-Worked on food-ordering LLM agents, including prompt engineering, SFT, GRPO-style post-training, curriculum learning, and reward design.
+  <div class="internship-item" role="listitem">
+    <div class="internship-logo">
+      <img class="internship-company-logo" src="{{ '/images/internship/meituan.png' | relative_url }}" alt="Meituan logo" loading="lazy" decoding="async">
+    </div>
+    <div class="internship-details">
+      <div class="internship-company-line">
+        <strong>Meituan</strong>
+        <span class="internship-location">China</span>
+      </div>
+      <div class="internship-role-line">
+        <span>LLM Post-training Intern</span>
+        <span class="internship-date">11/2025 - 04/2026</span>
+      </div>
+      <div class="internship-note">Worked on food-ordering LLM agents, including prompt engineering, SFT, GRPO-style post-training, curriculum learning, and reward design.</div>
+    </div>
+  </div>
 
-**Tianjin University NLP Lab**, China<br>
-LLM Intern, 07/2025 - 08/2025<br>
-Worked on Deep-Research, supervised by [Prof. Deyi Xiong](https://dyxiong.github.io/).
+  <div class="internship-item" role="listitem">
+    <div class="internship-logo">
+      <img class="internship-school-logo" src="{{ '/images/internship/tianjin-university.png' | relative_url }}" alt="Tianjin University emblem" loading="lazy" decoding="async">
+    </div>
+    <div class="internship-details">
+      <div class="internship-company-line">
+        <strong>Tianjin University NLP Lab</strong>
+        <span class="internship-location">China</span>
+      </div>
+      <div class="internship-role-line">
+        <span>LLM Intern</span>
+        <span class="internship-date">07/2025 - 08/2025</span>
+      </div>
+      <div class="internship-note">Worked on Deep-Research, supervised by <a href="https://dyxiong.github.io/">Prof. Deyi Xiong</a>.</div>
+    </div>
+  </div>
 
-**University of Chinese Academy of Sciences**, China<br>
-AIGC Intern, 03/2025 - 06/2025<br>
-Worked on speech-driven facial animation, training a new Mamba-based audio encoder. Supervised by [Prof. Changliang Xu](https://people.ucas.edu.cn/~xuchangliang).
+  <div class="internship-item" role="listitem">
+    <div class="internship-logo">
+      <img class="internship-school-logo" src="{{ '/images/internship/ucas.png' | relative_url }}" alt="Chinese Academy of Sciences emblem" loading="lazy" decoding="async">
+    </div>
+    <div class="internship-details">
+      <div class="internship-company-line">
+        <strong>University of Chinese Academy of Sciences</strong>
+        <span class="internship-location">China</span>
+      </div>
+      <div class="internship-role-line">
+        <span>AIGC Intern</span>
+        <span class="internship-date">03/2025 - 06/2025</span>
+      </div>
+      <div class="internship-note">Worked on speech-driven facial animation, training a new Mamba-based audio encoder. Supervised by <a href="https://people.ucas.edu.cn/~xuchangliang">Prof. Changliang Xu</a>.</div>
+    </div>
+  </div>
+</div>
 
 # Awards & Honors
 
