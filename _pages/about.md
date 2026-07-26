@@ -70,7 +70,7 @@ redirect_from:
         <strong>RWTH Aachen University</strong>
         <span class="education-location">Aachen, Germany</span>
       </div>
-      <div class="education-note">Exchange experience.</div>
+      <div class="education-note">Visiting Student</div>
     </div>
   </div>
 </div>
@@ -108,7 +108,7 @@ redirect_from:
         <span>LLM Post-training Intern</span>
         <span class="internship-date">11/2025 - 04/2026</span>
       </div>
-      <div class="internship-note">Worked on food-ordering LLM agents, including prompt engineering, SFT, GRPO-style post-training, curriculum learning, and reward design.</div>
+      <div class="internship-note">Worked on food-ordering LLM agents, including prompt engineering, SFT, GRPO-style post-training, curriculum learning, and reward design. Supervised by <a href="https://cn.linkedin.com/in/%E9%B9%8F%E9%B9%A4-%E5%88%98-5b076ab1">Penghe Liu</a>.</div>
     </div>
   </div>
 
