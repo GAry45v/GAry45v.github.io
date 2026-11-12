@@ -35,6 +35,6 @@ Academic Pages 上游模板保留为 `upstream`，个人仓库使用 `origin`。
 
 ## 公开信息说明
 
-- 头像位于 `images/self.jpg`。
+- 头像位于 `images/new_self.jpg`。
 - Email、WeChat 和 RedNote 在页面上不直接显示具体值，但其值仍会存在于公开仓库和网页源码中。
 - 论文投稿或录用状态发生变化后，需要同步更新 `_pages/about.md` 与 `_publications/`。

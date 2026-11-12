@@ -4,7 +4,7 @@
     "email": "13735558806@163.com",
     "phone": "",
     "website": "https://GAry45v.github.io",
-    "summary": "LLM Agent and Applied ML researcher working on Agentic RL, LLM post-training, anomaly detection, and research automation.",
+    "summary": "M.S. student at Zhejiang University and research intern at Xiaohongshu (RedNote), working on agent post-training. Research interests include Agentic RL, anomaly detection, and research automation.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -22,10 +22,18 @@
   },
   "work": [
     {
+      "name": "Xiaohongshu (RedNote)",
+      "position": "Agent Post-training Research Intern",
+      "startDate": "2026-11",
+      "endDate": "Present",
+      "summary": "Conducting research on agent post-training.",
+      "highlights": []
+    },
+    {
       "name": "TikTok",
       "position": "LLM Post-training Intern",
       "startDate": "2026-05",
-      "endDate": "Present",
+      "endDate": "2026-09",
       "summary": "LLM post-training for live moderation.",
       "highlights": [
         "Focused on VLMs, agentic reasoning, RFT, and Agentic RL."

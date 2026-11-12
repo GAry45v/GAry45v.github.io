@@ -7,8 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-- Welcome to my personal academic website! I am Jiayi Xie, and I also go by Gary. I will join Zhejiang University as a master's student in Software Engineering in Fall 2026.
-- I am currently an LLM post-training intern at TikTok, working on live moderation. Previously, I interned at Meituan, Tianjin University NLP Lab, and University of Chinese Academy of Sciences.
+- Welcome to my personal academic website! I am Jiayi Xie, and I also go by Gary. I am a master's student in Software Engineering at Zhejiang University.
+- I am currently a research intern at Xiaohongshu (RedNote), working on agent post-training. Previously, I interned at TikTok, Meituan, Tianjin University NLP Lab, and University of Chinese Academy of Sciences.
 - Research Interests: LLM Agents, Agentic RL, LLM post-training, cross-domain anomaly detection, and research automation.
 
 # Publications & Research
@@ -38,7 +38,7 @@ redirect_from:
         <span class="education-location">Hangzhou, China</span>
       </div>
       <div class="education-degree-line">
-        <span>Incoming M.S. Student in Software Engineering</span>
+        <span>M.S. Student in Software Engineering</span>
         <span class="education-date">09/2026 - 07/2029</span>
       </div>
       <div class="education-note">Recommended admission, ranked 1st in major track.</div>
@@ -55,7 +55,7 @@ redirect_from:
         <span class="education-location">Hangzhou, China</span>
       </div>
       <div class="education-degree-line">
-        <span>B.Eng. Student in Software Engineering</span>
+        <span>B.Eng. in Software Engineering</span>
         <span class="education-date">09/2022 - 07/2026</span>
       </div>
     </div>
@@ -79,6 +79,23 @@ redirect_from:
 
 <div class="internship-list" role="list">
   <div class="internship-item" role="listitem">
+    <div class="internship-logo" aria-hidden="true">
+      <span class="internship-wordmark">小红书</span>
+    </div>
+    <div class="internship-details">
+      <div class="internship-company-line">
+        <strong>Xiaohongshu (RedNote)</strong>
+        <span class="internship-location">China</span>
+      </div>
+      <div class="internship-role-line">
+        <span>Agent Post-training Research Intern</span>
+        <span class="internship-date">11/2026 - Present</span>
+      </div>
+      <div class="internship-note">Conducting research on agent post-training.</div>
+    </div>
+  </div>
+
+  <div class="internship-item" role="listitem">
     <div class="internship-logo">
       <img class="internship-company-logo" src="{{ '/images/internship/tiktok.png' | relative_url }}" alt="TikTok logo" loading="lazy" decoding="async">
     </div>
@@ -89,9 +106,9 @@ redirect_from:
       </div>
       <div class="internship-role-line">
         <span>LLM Post-training Intern</span>
-        <span class="internship-date">05/2026 - Present</span>
+        <span class="internship-date">05/2026 - 09/2026</span>
       </div>
-      <div class="internship-note">Working on LLM post-training for live moderation, with a focus on VLM, Agentic Reasoning, RFT, and Agentic RL.</div>
+      <div class="internship-note">Worked on LLM post-training for live moderation, with a focus on VLM, Agentic Reasoning, RFT, and Agentic RL.</div>
     </div>
   </div>
 

@@ -23,10 +23,10 @@ repository               : "GAry45v/GAry45v.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "self.jpg"
+  avatar           : "new_self.jpg"
   name             : "Jiayi Xie (Gary)"
   pronouns         : # example: "she/her"  
-  bio              : "Incoming M.S. student at Zhejiang University"
+  bio              : "zju student"
   location         : "Hangzhou, China"
   employer         : "Zhejiang University"
   uri              : # URL

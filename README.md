@@ -23,7 +23,7 @@ It is based on the [academicpages/academicpages.github.io](https://github.com/ac
 
 ## Public Information
 
-- The profile photo is stored at `images/self.jpg`.
+- The profile photo is stored at `images/new_self.jpg`.
 - Contact identifiers are intentionally presented as label-only copy actions on the site, but remain visible in the public repository source.
 - Publication status wording should be updated whenever decisions change.
 
