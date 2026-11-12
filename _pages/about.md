@@ -114,7 +114,7 @@ redirect_from:
 
   <div class="internship-item" role="listitem">
     <div class="internship-logo">
-      <img class="internship-company-logo" src="{{ '/images/internship/meituan.png' | relative_url }}" alt="Meituan logo" loading="lazy" decoding="async">
+      <img class="internship-company-logo internship-company-logo--meituan" src="{{ '/images/internship/meituan.png' | relative_url }}" alt="Meituan logo" loading="lazy" decoding="async">
     </div>
     <div class="internship-details">
       <div class="internship-company-line">

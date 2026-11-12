@@ -115,6 +115,11 @@
   border-radius: 0.45rem;
 }
 
+.internship-company-logo--meituan {
+  // Compensate for the source image's roughly 10% padding on each edge.
+  transform: scale(1.24);
+}
+
 .internship-school-logo {
   width: 3.15rem;
   height: 3.15rem;
