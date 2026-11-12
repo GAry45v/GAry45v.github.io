@@ -79,8 +79,8 @@ redirect_from:
 
 <div class="internship-list" role="list">
   <div class="internship-item" role="listitem">
-    <div class="internship-logo" aria-hidden="true">
-      <span class="internship-wordmark">小红书</span>
+    <div class="internship-logo">
+      <img class="internship-company-logo" src="{{ '/images/internship/xiaohongshu.webp' | relative_url }}" alt="Xiaohongshu logo" loading="lazy" decoding="async">
     </div>
     <div class="internship-details">
       <div class="internship-company-line">
